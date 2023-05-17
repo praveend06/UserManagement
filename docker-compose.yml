@@ -1,0 +1,8 @@
+version: '3'
+services:
+  docg-app:
+    image: usermanagement-service
+    build: .
+    ports:
+      - "8082:8082"
+    restart: always
